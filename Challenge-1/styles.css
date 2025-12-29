@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+
+.card{
+    background-color: white;
+    padding: 25px;
+    margin: 10px;
+    width: 450px;
+    border-radius: 20px;
+    border: 1px black solid;
+    box-shadow: 10px 10px 0px black;
+    text-align: left;
+}
+
+.card header img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.subject{
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 30px 0 5px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 8px;
+}
+
+.title{
+    font-weight: 800;
+}
+
+.title:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.card main p{
+    color: hsl(0, 0%, 42%);
+    margin: 20px 0px 35px;
+}
+
+.card footer{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    gap: 10px;
+}
+
+.card footer img{
+    width: 32px;
+}
+
+::selection{
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 35%);
+}
